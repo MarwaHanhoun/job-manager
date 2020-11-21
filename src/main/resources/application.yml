@@ -1,0 +1,11 @@
+spring:
+  quartz:
+    jdbc:
+      initialize-schema: always
+    auto-startup: true
+    job-store-type: jdbc
+springdoc:
+  swagger-ui:
+    path: /api/swagger-ui.html
+
+
